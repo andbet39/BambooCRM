@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Outcome:</strong>
+  <%= @wubook_fetch.outcome %>
+</p>
+
+<p>
+  <strong>Raw:</strong>
+  <%= @wubook_fetch.raw %>
+</p>
+
+<p>
+  <strong>Processed:</strong>
+  <%= @wubook_fetch.processed %>
+</p>
+
+<%= link_to 'Edit', edit_wubook_fetch_path(@wubook_fetch) %> |
+<%= link_to 'Back', wubook_fetches_path %>

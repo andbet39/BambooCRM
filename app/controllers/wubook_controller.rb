@@ -8,9 +8,14 @@ class WubookController < ApplicationController
     WubookService.instance.lcode='1377875938'
     WubookService.instance.token='bamboo:rome'
     reserv = WubookService.instance.fetchReservation('24/05/2018','25/05/2018') 
+    
+    fetch = WubookFetch.new
+    fetch.outcome  = 0
+    fetch.processed  = false
+    fetch.raw = reserv
+    fetch.save
 
-    logger.debug reserv
-
+    render json:fetch
   
   end
   

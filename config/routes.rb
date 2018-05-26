@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :wubook_fetches
   resources :rooms
   get 'wubook/index'
 

@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  outcome: 1
+  raw: MyText
+  processed: false
+
+two:
+  outcome: 1
+  raw: MyText
+  processed: false

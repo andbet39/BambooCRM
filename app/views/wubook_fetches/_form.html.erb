@@ -1,0 +1,32 @@
+<%= form_with(model: wubook_fetch, local: true) do |form| %>
+  <% if wubook_fetch.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(wubook_fetch.errors.count, "error") %> prohibited this wubook_fetch from being saved:</h2>
+
+      <ul>
+      <% wubook_fetch.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :outcome %>
+    <%= form.number_field :outcome, id: :wubook_fetch_outcome %>
+  </div>
+
+  <div class="field">
+    <%= form.label :raw %>
+    <%= form.text_area :raw, id: :wubook_fetch_raw %>
+  </div>
+
+  <div class="field">
+    <%= form.label :processed %>
+    <%= form.check_box :processed, id: :wubook_fetch_processed %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

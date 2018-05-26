@@ -24,9 +24,10 @@ class WubookService
     end
 
 
-    def fetchReservation( dfrom, dto)
+    def fetchReservation( dfrom=nil, dto=nil)
         client = self.getClient
         token = self.getToken
+        
         res_resp = client.call('fetch_bookings',token,@lcode,dfrom,dto,false)
 
         Rails.logger.debug res_resp
