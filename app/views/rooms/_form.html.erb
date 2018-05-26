@@ -1,0 +1,107 @@
+<%= form_with(model: room, local: true) do |form| %>
+  <% if room.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(room.errors.count, "error") %> prohibited this room from being saved:</h2>
+
+      <ul>
+      <% room.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :name %>
+    <%= form.text_field :name, id: :room_name %>
+  </div>
+
+  <div class="field">
+    <%= form.label :shortname %>
+    <%= form.text_field :shortname, id: :room_shortname %>
+  </div>
+
+  <div class="field">
+    <%= form.label :occupancy %>
+    <%= form.number_field :occupancy, id: :room_occupancy %>
+  </div>
+
+  <div class="field">
+    <%= form.label :men %>
+    <%= form.number_field :men, id: :room_men %>
+  </div>
+
+  <div class="field">
+    <%= form.label :adults %>
+    <%= form.number_field :adults, id: :room_adults %>
+  </div>
+
+  <div class="field">
+    <%= form.label :children %>
+    <%= form.number_field :children, id: :room_children %>
+  </div>
+
+  <div class="field">
+    <%= form.label :subroom %>
+    <%= form.number_field :subroom, id: :room_subroom %>
+  </div>
+
+  <div class="field">
+    <%= form.label :anchorate %>
+    <%= form.number_field :anchorate, id: :room_anchorate %>
+  </div>
+
+  <div class="field">
+    <%= form.label :price %>
+    <%= form.text_field :price, id: :room_price %>
+  </div>
+
+  <div class="field">
+    <%= form.label :availability %>
+    <%= form.number_field :availability, id: :room_availability %>
+  </div>
+
+  <div class="field">
+    <%= form.label :board %>
+    <%= form.text_field :board, id: :room_board %>
+  </div>
+
+  <div class="field">
+    <%= form.label :boards %>
+    <%= form.text_field :boards, id: :room_boards %>
+  </div>
+
+  <div class="field">
+    <%= form.label :rtype %>
+    <%= form.number_field :rtype, id: :room_rtype %>
+  </div>
+
+  <div class="field">
+    <%= form.label :rtype_name %>
+    <%= form.text_field :rtype_name, id: :room_rtype_name %>
+  </div>
+
+  <div class="field">
+    <%= form.label :dec_avail %>
+    <%= form.number_field :dec_avail, id: :room_dec_avail %>
+  </div>
+
+  <div class="field">
+    <%= form.label :min_price %>
+    <%= form.number_field :min_price, id: :room_min_price %>
+  </div>
+
+  <div class="field">
+    <%= form.label :max_price %>
+    <%= form.number_field :max_price, id: :room_max_price %>
+  </div>
+
+  <div class="field">
+    <%= form.label :woodoo %>
+    <%= form.number_field :woodoo, id: :room_woodoo %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

@@ -1,0 +1,61 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Rooms</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Shortname</th>
+      <th>Occupancy</th>
+      <th>Men</th>
+      <th>Adults</th>
+      <th>Children</th>
+      <th>Subroom</th>
+      <th>Anchorate</th>
+      <th>Price</th>
+      <th>Availability</th>
+      <th>Board</th>
+      <th>Boards</th>
+      <th>Rtype</th>
+      <th>Rtype name</th>
+      <th>Dec avail</th>
+      <th>Min price</th>
+      <th>Max price</th>
+      <th>Woodoo</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @rooms.each do |room| %>
+      <tr>
+        <td><%= room.name %></td>
+        <td><%= room.shortname %></td>
+        <td><%= room.occupancy %></td>
+        <td><%= room.men %></td>
+        <td><%= room.adults %></td>
+        <td><%= room.children %></td>
+        <td><%= room.subroom %></td>
+        <td><%= room.anchorate %></td>
+        <td><%= room.price %></td>
+        <td><%= room.availability %></td>
+        <td><%= room.board %></td>
+        <td><%= room.boards %></td>
+        <td><%= room.rtype %></td>
+        <td><%= room.rtype_name %></td>
+        <td><%= room.dec_avail %></td>
+        <td><%= room.min_price %></td>
+        <td><%= room.max_price %></td>
+        <td><%= room.woodoo %></td>
+        <td><%= link_to 'Show', room %></td>
+        <td><%= link_to 'Edit', edit_room_path(room) %></td>
+        <td><%= link_to 'Destroy', room, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Room', new_room_path %>

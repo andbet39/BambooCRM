@@ -1,0 +1,41 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  shortname: MyString
+  occupancy: 1
+  men: 1
+  adults: 1
+  children: 1
+  subroom: 1
+  anchorate: 1
+  price: 1.5
+  availability: 1
+  board: MyString
+  boards: MyString
+  rtype: 1
+  rtype_name: MyString
+  dec_avail: 1
+  min_price: 1
+  max_price: 1
+  woodoo: 1
+
+two:
+  name: MyString
+  shortname: MyString
+  occupancy: 1
+  men: 1
+  adults: 1
+  children: 1
+  subroom: 1
+  anchorate: 1
+  price: 1.5
+  availability: 1
+  board: MyString
+  boards: MyString
+  rtype: 1
+  rtype_name: MyString
+  dec_avail: 1
+  min_price: 1
+  max_price: 1
+  woodoo: 1
