@@ -1,0 +1,525 @@
+Started GET "/wubook/index" for 127.0.0.1 at 2018-05-24 15:59:46 +0200
+Processing by WubookController#index as HTML
+Completed 500 Internal Server Error in 2053ms
+
+
+  
+NoMethodError (undefined method `istance' for WubookService:Class
+Did you mean?  instance):
+  
+app/controllers/wubook_controller.rb:4:in `index'
+Started GET "/wubook/index" for 127.0.0.1 at 2018-05-24 16:02:22 +0200
+Processing by WubookController#index as HTML
+  Rendering wubook/index.html.erb within layouts/application
+  Rendered wubook/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 23194ms (Views: 23041.5ms)
+
+
+Started GET "/wubook/index" for 127.0.0.1 at 2018-05-24 16:04:59 +0200
+Processing by WubookController#index as HTML
+Completed 500 Internal Server Error in 18ms
+
+
+  
+NoMethodError (undefined method `fetchRoom' for #<WubookService:0xaf739b8>
+Did you mean?  fetchRooms):
+  
+app/controllers/wubook_controller.rb:9:in `index'
+Started GET "/wubook/index" for 127.0.0.1 at 2018-05-24 16:05:36 +0200
+Processing by WubookController#index as HTML
+Completed 500 Internal Server Error in 1508ms
+
+
+  
+RuntimeError (Wrong type NilClass. Not allowed!):
+  
+app/services/wubook_service.rb:20:in `fetchRooms'
+app/controllers/wubook_controller.rb:9:in `index'
+Started GET "/wubook/index" for 127.0.0.1 at 2018-05-24 16:06:33 +0200
+Processing by WubookController#index as HTML
+Completed 500 Internal Server Error in 460ms
+
+
+  
+RuntimeError (Wrong type NilClass. Not allowed!):
+  
+app/services/wubook_service.rb:22:in `fetchRooms'
+app/controllers/wubook_controller.rb:9:in `index'
+Started GET "/wubook/index" for 127.0.0.1 at 2018-05-24 16:24:08 +0200
+Processing by WubookController#index as HTML
+Completed 500 Internal Server Error in 418ms
+
+
+  
+RuntimeError (Wrong type NilClass. Not allowed!):
+  
+app/services/wubook_service.rb:22:in `fetchRooms'
+app/controllers/wubook_controller.rb:9:in `index'
+Started GET "/wubook/index" for 127.0.0.1 at 2018-05-24 16:25:17 +0200
+Processing by WubookController#index as HTML
+Completed 500 Internal Server Error in 382ms
+
+
+  
+RuntimeError (Wrong type NilClass. Not allowed!):
+  
+app/services/wubook_service.rb:25:in `fetchRooms'
+app/controllers/wubook_controller.rb:9:in `index'
+Started GET "/wubook/index" for 127.0.0.1 at 2018-05-24 16:26:24 +0200
+Processing by WubookController#index as HTML
+Completed 500 Internal Server Error in 402ms
+
+
+  
+RuntimeError (Wrong type NilClass. Not allowed!):
+  
+app/services/wubook_service.rb:26:in `fetchRooms'
+app/controllers/wubook_controller.rb:9:in `index'
+Started GET "/wubook/index" for 127.0.0.1 at 2018-05-24 16:28:33 +0200
+Processing by WubookController#index as HTML
+Completed 500 Internal Server Error in 735ms
+
+
+  
+TypeError (no implicit conversion of nil into String):
+  
+app/services/wubook_service.rb:23:in `+'
+app/services/wubook_service.rb:23:in `fetchRooms'
+app/controllers/wubook_controller.rb:9:in `index'
+Started GET "/wubook/index" for 127.0.0.1 at 2018-05-24 16:30:11 +0200
+Processing by WubookController#index as HTML
+Completed 500 Internal Server Error in 918ms
+
+
+  
+NoMethodError (undefined method `debug' for Logger:Class
+Did you mean?  debugger):
+  
+app/services/wubook_service.rb:35:in `getToken'
+app/services/wubook_service.rb:21:in `fetchRooms'
+app/controllers/wubook_controller.rb:9:in `index'
+Started GET "/wubook/index" for 127.0.0.1 at 2018-05-24 16:30:26 +0200
+Processing by WubookController#index as HTML
+Completed 500 Internal Server Error in 482ms
+
+
+  
+ArgumentError (wrong number of arguments (given 1, expected 0)):
+  
+app/services/wubook_service.rb:35:in `getToken'
+app/services/wubook_service.rb:21:in `fetchRooms'
+app/controllers/wubook_controller.rb:9:in `index'
+Started GET "/wubook/index" for 127.0.0.1 at 2018-05-24 16:31:42 +0200
+Processing by WubookController#index as HTML
+Completed 500 Internal Server Error in 319ms
+
+
+  
+NameError (undefined local variable or method `logger' for #<WubookService:0x7247d90>):
+  
+app/services/wubook_service.rb:35:in `getToken'
+app/services/wubook_service.rb:21:in `fetchRooms'
+app/controllers/wubook_controller.rb:9:in `index'
+Started GET "/wubook/index" for 127.0.0.1 at 2018-05-24 16:33:38 +0200
+Processing by WubookController#index as HTML
+Received : 2412990783.5168
+Completed 500 Internal Server Error in 406ms
+
+
+  
+TypeError (no implicit conversion of nil into String):
+  
+app/services/wubook_service.rb:23:in `+'
+app/services/wubook_service.rb:23:in `fetchRooms'
+app/controllers/wubook_controller.rb:9:in `index'
+Started GET "/wubook/index" for 127.0.0.1 at 2018-05-24 16:33:59 +0200
+Processing by WubookController#index as HTML
+Received : 2899005167.5366
+  Rendering wubook/index.html.erb within layouts/application
+  Rendered wubook/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1504ms (Views: 629.0ms)
+
+
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (23.4ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (13.0ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateRooms (20180524143944)
+  [1m[35m (1.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (3.9ms)[0m  [1m[35mCREATE TABLE "rooms" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "shortname" varchar, "occupancy" integer, "men" integer, "adults" varchar, "children" integer, "subroom" integer, "anchorate" integer, "price" float, "availability" integer, "board" varchar, "boards" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20180524143944"]]
+  [1m[35m (12.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (1.0ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (1.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (4.9ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2018-05-24 14:40:57.618266"], ["updated_at", "2018-05-24 14:40:57.618266"]]
+  [1m[35m (18.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/wubook/index" for 127.0.0.1 at 2018-05-24 16:44:32 +0200
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WubookController#index as HTML
+getToken - Received : 2491804560.6944
+Completed 500 Internal Server Error in 1086ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `rooms_resps' for #<WubookService:0xc07b9a8>
+Did you mean?  rooms_resp):
+  
+app/services/wubook_service.rb:23:in `fetchRooms'
+app/controllers/wubook_controller.rb:9:in `index'
+Started GET "/wubook/index" for 127.0.0.1 at 2018-05-24 16:44:52 +0200
+Processing by WubookController#index as HTML
+getToken - Received : 2416312964.2234
+Completed 500 Internal Server Error in 722ms
+
+
+  
+NoMethodError (undefined method `each' for nil:NilClass):
+  
+app/controllers/wubook_controller.rb:11:in `index'
+Started GET "/wubook/index" for 127.0.0.1 at 2018-05-24 16:45:34 +0200
+Processing by WubookController#index as HTML
+getToken - Received : 2602569875.7908
+Completed 500 Internal Server Error in 568ms
+
+
+  
+NameError (uninitialized constant WubookController::Rooms):
+  
+app/controllers/wubook_controller.rb:12:in `block in index'
+app/controllers/wubook_controller.rb:11:in `each'
+app/controllers/wubook_controller.rb:11:in `index'
+Started GET "/wubook/index" for 127.0.0.1 at 2018-05-24 16:47:14 +0200
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WubookController#index as HTML
+getToken - Received : 2438463816.3523
+Completed 500 Internal Server Error in 26588ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant WubookController::Rooms):
+  
+app/controllers/wubook_controller.rb:12:in `block in index'
+app/controllers/wubook_controller.rb:11:in `each'
+app/controllers/wubook_controller.rb:11:in `index'
+Started GET "/wubook/index" for 127.0.0.1 at 2018-05-24 16:48:15 +0200
+Processing by WubookController#index as HTML
+getToken - Received : 2430820734.4004
+  [1m[36mRoom Load (2.0ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT ?[0m  [["id", 79009], ["LIMIT", 1]]
+Completed 404 Not Found in 611ms (ActiveRecord: 7.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Room with 'id'=79009):
+  
+app/controllers/wubook_controller.rb:12:in `block in index'
+app/controllers/wubook_controller.rb:11:in `each'
+app/controllers/wubook_controller.rb:11:in `index'
+Started GET "/wubook/index" for 127.0.0.1 at 2018-05-24 16:48:53 +0200
+Processing by WubookController#index as HTML
+getToken - Received : 2284338840.3697
+Completed 500 Internal Server Error in 790ms
+
+
+  
+ArgumentError (Unsupported argument type: id (Symbol)):
+  
+app/controllers/wubook_controller.rb:12:in `block in index'
+app/controllers/wubook_controller.rb:11:in `each'
+app/controllers/wubook_controller.rb:11:in `index'
+Started GET "/wubook/index" for 127.0.0.1 at 2018-05-24 16:49:11 +0200
+Processing by WubookController#index as HTML
+getToken - Received : 2745077345.1988
+  [1m[36mRoom Exists (1.0ms)[0m  [1m[34mSELECT  1 AS one FROM "rooms" WHERE "rooms"."id" = ? LIMIT ?[0m  [["id", 79009], ["LIMIT", 1]]
+Completed 500 Internal Server Error in 702ms (ActiveRecord: 6.0ms)
+
+
+  
+ActiveModel::UnknownAttributeError (unknown attribute 'rtype' for Room.):
+  
+app/controllers/wubook_controller.rb:15:in `block in index'
+app/controllers/wubook_controller.rb:11:in `each'
+app/controllers/wubook_controller.rb:11:in `index'
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (31.2ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (17.9ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateRooms (20180524145409)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mCREATE TABLE "rooms" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "shortname" varchar, "occupancy" integer, "men" integer, "adults" varchar, "children" integer, "subroom" integer, "anchorate" integer, "price" float, "availability" integer, "board" varchar, "boards" varchar, "rtype" integer, "rtype_name" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35mSQL (0.0ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20180524145409"]]
+  [1m[35m (15.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.0ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (15.6ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2018-05-24 15:26:12.795538"], ["updated_at", "2018-05-24 15:26:12.795538"]]
+  [1m[35m (15.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/wubook/index" for 127.0.0.1 at 2018-05-24 17:33:10 +0200
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WubookController#index as HTML
+getToken - Received : 2431027739.2460
+  [1m[36mRoom Exists (1.0ms)[0m  [1m[34mSELECT  1 AS one FROM "rooms" WHERE "rooms"."id" = ? LIMIT ?[0m  [["id", 79009], ["LIMIT", 1]]
+Completed 500 Internal Server Error in 33599ms (ActiveRecord: 6.1ms)
+
+
+  
+ActiveModel::UnknownAttributeError (unknown attribute 'dec_avail' for Room.):
+  
+app/controllers/wubook_controller.rb:15:in `block in index'
+app/controllers/wubook_controller.rb:11:in `each'
+app/controllers/wubook_controller.rb:11:in `index'
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (20.0ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (20.0ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateRooms (20180524153519)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (8.0ms)[0m  [1m[35mCREATE TABLE "rooms" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "shortname" varchar, "occupancy" integer, "men" integer, "adults" varchar, "children" integer, "subroom" integer, "anchorate" integer, "price" float, "availability" integer, "board" varchar, "boards" varchar, "rtype" integer, "rtype_name" varchar, "dec_avail" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20180524153519"]]
+  [1m[35m (13.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (1.0ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (4.0ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2018-05-24 15:36:13.342764"], ["updated_at", "2018-05-24 15:36:13.342764"]]
+  [1m[35m (9.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (2.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/wubook/index" for 127.0.0.1 at 2018-05-24 17:39:04 +0200
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WubookController#index as HTML
+getToken - Received : 2935604941.2030
+  [1m[36mRoom Exists (1.0ms)[0m  [1m[34mSELECT  1 AS one FROM "rooms" WHERE "rooms"."id" = ? LIMIT ?[0m  [["id", 79009], ["LIMIT", 1]]
+Completed 500 Internal Server Error in 24805ms (ActiveRecord: 5.0ms)
+
+
+  
+ActiveModel::UnknownAttributeError (unknown attribute 'min_price' for Room.):
+  
+app/controllers/wubook_controller.rb:15:in `block in index'
+app/controllers/wubook_controller.rb:11:in `each'
+app/controllers/wubook_controller.rb:11:in `index'
+Started GET "/wubook/index" for 127.0.0.1 at 2018-05-24 17:39:56 +0200
+Processing by WubookController#index as HTML
+getToken - Received : 2618555340.5315
+  [1m[36mRoom Exists (1.0ms)[0m  [1m[34mSELECT  1 AS one FROM "rooms" WHERE "rooms"."id" = ? LIMIT ?[0m  [["id", 79009], ["LIMIT", 1]]
+{"anchorate"=>39596, "name"=>"Quadrupla 2pax", "rtype"=>1, "dec_avail"=>0, "price"=>110.0, "men"=>2, "subroom"=>39596, "occupancy"=>2, "id"=>79009, "min_price"=>0, "board"=>"bb", "availability"=>2, "woodoo"=>1, "shortname"=>"QUA2", "max_price"=>0, "rtype_name"=>"Room", "children"=>0, "boards"=>""}
+Completed 500 Internal Server Error in 678ms (ActiveRecord: 5.0ms)
+
+
+  
+ActiveModel::UnknownAttributeError (unknown attribute 'min_price' for Room.):
+  
+app/controllers/wubook_controller.rb:16:in `block in index'
+app/controllers/wubook_controller.rb:11:in `each'
+app/controllers/wubook_controller.rb:11:in `index'
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (15.7ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (15.6ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateRooms (20180524154202)
+  [1m[35m (1.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (6.0ms)[0m  [1m[35mCREATE TABLE "rooms" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "shortname" varchar, "occupancy" integer, "men" integer, "adults" integer, "children" integer, "subroom" integer, "anchorate" integer, "price" float, "availability" integer, "board" varchar, "boards" varchar, "rtype" integer, "rtype_name" varchar, "dec_avail" integer, "min_price" integer, "max_price" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35mSQL (0.0ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20180524154202"]]
+  [1m[35m (16.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (1.0ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.0ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2018-05-24 15:45:09.805611"], ["updated_at", "2018-05-24 15:45:09.805611"]]
+  [1m[35m (15.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/wubook/index" for 127.0.0.1 at 2018-05-24 17:46:49 +0200
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WubookController#index as HTML
+getToken - Received : 2826224649.7658
+  [1m[36mRoom Exists (1.0ms)[0m  [1m[34mSELECT  1 AS one FROM "rooms" WHERE "rooms"."id" = ? LIMIT ?[0m  [["id", 79009], ["LIMIT", 1]]
+{"anchorate"=>39596, "name"=>"Quadrupla 2pax", "rtype"=>1, "dec_avail"=>0, "price"=>110.0, "men"=>2, "subroom"=>39596, "occupancy"=>2, "id"=>79009, "min_price"=>0, "board"=>"bb", "availability"=>2, "woodoo"=>1, "shortname"=>"QUA2", "max_price"=>0, "rtype_name"=>"Room", "children"=>0, "boards"=>""}
+Completed 500 Internal Server Error in 33874ms (ActiveRecord: 5.0ms)
+
+
+  
+ActiveModel::UnknownAttributeError (unknown attribute 'woodoo' for Room.):
+  
+app/controllers/wubook_controller.rb:16:in `block in index'
+app/controllers/wubook_controller.rb:11:in `each'
+app/controllers/wubook_controller.rb:11:in `index'
+Started GET "/wubook/index" for 127.0.0.1 at 2018-05-24 17:48:40 +0200
+  
+SyntaxError (C:/Users/andrea.terzani/Desktop/dev/BambooCRM/app/controllers/wubook_controller.rb:16: syntax error, unexpected ')'):
+  
+app/controllers/wubook_controller.rb:16: syntax error, unexpected ')'
+Started GET "/wubook/index" for 127.0.0.1 at 2018-05-24 17:49:00 +0200
+  
+SyntaxError (C:/Users/andrea.terzani/Desktop/dev/BambooCRM/app/controllers/wubook_controller.rb:16: syntax error, unexpected ')'
+        Room.create(r.except!(woodoo:))
+                                      ^):
+  
+app/controllers/wubook_controller.rb:16: syntax error, unexpected ')'
+Started GET "/wubook/index" for 127.0.0.1 at 2018-05-24 17:52:36 +0200
+  
+SyntaxError (C:/Users/andrea.terzani/Desktop/dev/BambooCRM/app/controllers/wubook_controller.rb:15: syntax error, unexpected ')'
+C:/Users/andrea.terzani/Desktop/dev/BambooCRM/app/controllers/wubook_controller.rb:17: syntax error, unexpected ')'
+        Room.create(r.except(woodoo:))
+                                     ^):
+  
+app/controllers/wubook_controller.rb:15: syntax error, unexpected ')'
+app/controllers/wubook_controller.rb:17: syntax error, unexpected ')'
+Started GET "/wubook/index" for 127.0.0.1 at 2018-05-24 17:53:03 +0200
+Processing by WubookController#index as HTML
+getToken - Received : 2577774300.8029
+  [1m[36mRoom Exists (1.0ms)[0m  [1m[34mSELECT  1 AS one FROM "rooms" WHERE "rooms"."id" = ? LIMIT ?[0m  [["id", 79009], ["LIMIT", 1]]
+{"anchorate"=>39596, "name"=>"Quadrupla 2pax", "rtype"=>1, "dec_avail"=>0, "price"=>110.0, "men"=>2, "subroom"=>39596, "occupancy"=>2, "id"=>79009, "min_price"=>0, "board"=>"bb", "availability"=>2, "woodoo"=>1, "shortname"=>"QUA2", "max_price"=>0, "rtype_name"=>"Room", "children"=>0, "boards"=>""}
+Completed 500 Internal Server Error in 816ms (ActiveRecord: 5.9ms)
+
+
+  
+ActiveModel::UnknownAttributeError (unknown attribute 'woodoo' for Room.):
+  
+app/controllers/wubook_controller.rb:17:in `block in index'
+app/controllers/wubook_controller.rb:11:in `each'
+app/controllers/wubook_controller.rb:11:in `index'
+Started GET "/wubook/index" for 127.0.0.1 at 2018-05-24 17:56:07 +0200
+Processing by WubookController#index as HTML
+getToken - Received : 2673328747.6571
+  [1m[36mRoom Exists (1.0ms)[0m  [1m[34mSELECT  1 AS one FROM "rooms" WHERE "rooms"."id" = ? LIMIT ?[0m  [["id", 79009], ["LIMIT", 1]]
+
+Completed 500 Internal Server Error in 1198ms (ActiveRecord: 8.0ms)
+
+
+  
+ActiveModel::UnknownAttributeError (unknown attribute 'woodoo' for Room.):
+  
+app/controllers/wubook_controller.rb:17:in `block in index'
+app/controllers/wubook_controller.rb:11:in `each'
+app/controllers/wubook_controller.rb:11:in `index'
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (19.0ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (15.1ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateRooms (20180524155741)
+  [1m[35m (1.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mCREATE TABLE "rooms" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "shortname" varchar, "occupancy" integer, "men" integer, "adults" integer, "children" integer, "subroom" integer, "anchorate" integer, "price" float, "availability" integer, "board" varchar, "boards" varchar, "rtype" integer, "rtype_name" varchar, "dec_avail" integer, "min_price" integer, "max_price" integer, "woodoo" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35mSQL (0.0ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20180524155741"]]
+  [1m[35m (15.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.0ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.0ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2018-05-24 15:58:27.564912"], ["updated_at", "2018-05-24 15:58:27.564912"]]
+  [1m[35m (15.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/wubook/index" for 127.0.0.1 at 2018-05-24 17:59:42 +0200
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WubookController#index as HTML
+getToken - Received : 2740882305.2185
+  [1m[36mRoom Exists (1.0ms)[0m  [1m[34mSELECT  1 AS one FROM "rooms" WHERE "rooms"."id" = ? LIMIT ?[0m  [["id", 79009], ["LIMIT", 1]]
+{"anchorate"=>39596, "name"=>"Quadrupla 2pax", "rtype"=>1, "dec_avail"=>0, "price"=>110.0, "men"=>2, "subroom"=>39596, "occupancy"=>2, "id"=>79009, "min_price"=>0, "board"=>"bb", "availability"=>2, "woodoo"=>1, "shortname"=>"QUA2", "max_price"=>0, "rtype_name"=>"Room", "children"=>0, "boards"=>""}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (3.9ms)[0m  [1m[32mINSERT INTO "rooms" ("id", "name", "shortname", "occupancy", "men", "children", "subroom", "anchorate", "price", "availability", "board", "boards", "rtype", "rtype_name", "dec_avail", "min_price", "max_price", "woodoo", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["id", 79009], ["name", "Quadrupla 2pax"], ["shortname", "QUA2"], ["occupancy", 2], ["men", 2], ["children", 0], ["subroom", 39596], ["anchorate", 39596], ["price", 110.0], ["availability", 2], ["board", "bb"], ["boards", ""], ["rtype", 1], ["rtype_name", "Room"], ["dec_avail", 0], ["min_price", 0], ["max_price", 0], ["woodoo", 1], ["created_at", "2018-05-24 16:00:11.193460"], ["updated_at", "2018-05-24 16:00:11.193460"]]
+  [1m[35m (16.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mRoom Exists (1.0ms)[0m  [1m[34mSELECT  1 AS one FROM "rooms" WHERE "rooms"."id" = ? LIMIT ?[0m  [["id", 80683], ["LIMIT", 1]]
+{"anchorate"=>39596, "name"=>"Quadrupla 3pax", "rtype"=>1, "dec_avail"=>0, "price"=>120.0, "men"=>3, "subroom"=>39596, "occupancy"=>3, "id"=>80683, "min_price"=>0, "board"=>"bb", "availability"=>2, "woodoo"=>1, "shortname"=>"QUA3", "max_price"=>0, "rtype_name"=>"Room", "children"=>0, "boards"=>""}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (6.0ms)[0m  [1m[32mINSERT INTO "rooms" ("id", "name", "shortname", "occupancy", "men", "children", "subroom", "anchorate", "price", "availability", "board", "boards", "rtype", "rtype_name", "dec_avail", "min_price", "max_price", "woodoo", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["id", 80683], ["name", "Quadrupla 3pax"], ["shortname", "QUA3"], ["occupancy", 3], ["men", 3], ["children", 0], ["subroom", 39596], ["anchorate", 39596], ["price", 120.0], ["availability", 2], ["board", "bb"], ["boards", ""], ["rtype", 1], ["rtype_name", "Room"], ["dec_avail", 0], ["min_price", 0], ["max_price", 0], ["woodoo", 1], ["created_at", "2018-05-24 16:00:11.255462"], ["updated_at", "2018-05-24 16:00:11.255462"]]
+  [1m[35m (21.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mRoom Exists (1.0ms)[0m  [1m[34mSELECT  1 AS one FROM "rooms" WHERE "rooms"."id" = ? LIMIT ?[0m  [["id", 39594], ["LIMIT", 1]]
+{"anchorate"=>0, "name"=>"Double Room", "rtype"=>1, "dec_avail"=>0, "price"=>70.0, "men"=>2, "subroom"=>0, "occupancy"=>2, "id"=>39594, "min_price"=>0, "board"=>"bb", "availability"=>2, "woodoo"=>0, "shortname"=>"DP01", "max_price"=>0, "rtype_name"=>"Room", "children"=>0, "boards"=>""}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (6.0ms)[0m  [1m[32mINSERT INTO "rooms" ("id", "name", "shortname", "occupancy", "men", "children", "subroom", "anchorate", "price", "availability", "board", "boards", "rtype", "rtype_name", "dec_avail", "min_price", "max_price", "woodoo", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["id", 39594], ["name", "Double Room"], ["shortname", "DP01"], ["occupancy", 2], ["men", 2], ["children", 0], ["subroom", 0], ["anchorate", 0], ["price", 70.0], ["availability", 2], ["board", "bb"], ["boards", ""], ["rtype", 1], ["rtype_name", "Room"], ["dec_avail", 0], ["min_price", 0], ["max_price", 0], ["woodoo", 0], ["created_at", "2018-05-24 16:00:11.309437"], ["updated_at", "2018-05-24 16:00:11.309437"]]
+  [1m[35m (13.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mRoom Exists (1.0ms)[0m  [1m[34mSELECT  1 AS one FROM "rooms" WHERE "rooms"."id" = ? LIMIT ?[0m  [["id", 39595], ["LIMIT", 1]]
+{"anchorate"=>0, "name"=>"Triple Room", "rtype"=>1, "dec_avail"=>0, "price"=>110.0, "men"=>3, "subroom"=>0, "occupancy"=>3, "id"=>39595, "min_price"=>0, "board"=>"bb", "availability"=>1, "woodoo"=>0, "shortname"=>"TRP1", "max_price"=>0, "rtype_name"=>"Room", "children"=>0, "boards"=>""}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (10.0ms)[0m  [1m[32mINSERT INTO "rooms" ("id", "name", "shortname", "occupancy", "men", "children", "subroom", "anchorate", "price", "availability", "board", "boards", "rtype", "rtype_name", "dec_avail", "min_price", "max_price", "woodoo", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["id", 39595], ["name", "Triple Room"], ["shortname", "TRP1"], ["occupancy", 3], ["men", 3], ["children", 0], ["subroom", 0], ["anchorate", 0], ["price", 110.0], ["availability", 1], ["board", "bb"], ["boards", ""], ["rtype", 1], ["rtype_name", "Room"], ["dec_avail", 0], ["min_price", 0], ["max_price", 0], ["woodoo", 0], ["created_at", "2018-05-24 16:00:11.364352"], ["updated_at", "2018-05-24 16:00:11.364352"]]
+  [1m[35m (11.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mRoom Exists (3.0ms)[0m  [1m[34mSELECT  1 AS one FROM "rooms" WHERE "rooms"."id" = ? LIMIT ?[0m  [["id", 39596], ["LIMIT", 1]]
+{"anchorate"=>0, "name"=>"Family Room", "rtype"=>1, "dec_avail"=>0, "price"=>140.0, "men"=>4, "subroom"=>0, "occupancy"=>4, "id"=>39596, "min_price"=>0, "board"=>"bb", "availability"=>1, "woodoo"=>0, "shortname"=>"QUA1", "max_price"=>0, "rtype_name"=>"Room", "children"=>0, "boards"=>""}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (17.9ms)[0m  [1m[32mINSERT INTO "rooms" ("id", "name", "shortname", "occupancy", "men", "children", "subroom", "anchorate", "price", "availability", "board", "boards", "rtype", "rtype_name", "dec_avail", "min_price", "max_price", "woodoo", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["id", 39596], ["name", "Family Room"], ["shortname", "QUA1"], ["occupancy", 4], ["men", 4], ["children", 0], ["subroom", 0], ["anchorate", 0], ["price", 140.0], ["availability", 1], ["board", "bb"], ["boards", ""], ["rtype", 1], ["rtype_name", "Room"], ["dec_avail", 0], ["min_price", 0], ["max_price", 0], ["woodoo", 0], ["created_at", "2018-05-24 16:00:11.425386"], ["updated_at", "2018-05-24 16:00:11.425386"]]
+  [1m[35m (18.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mRoom Exists (1.1ms)[0m  [1m[34mSELECT  1 AS one FROM "rooms" WHERE "rooms"."id" = ? LIMIT ?[0m  [["id", 39597], ["LIMIT", 1]]
+{"anchorate"=>0, "name"=>"Single Room", "rtype"=>1, "dec_avail"=>0, "price"=>50.0, "men"=>1, "subroom"=>0, "occupancy"=>1, "id"=>39597, "min_price"=>0, "board"=>"bb", "availability"=>1, "woodoo"=>0, "shortname"=>"SIN1", "max_price"=>0, "rtype_name"=>"Room", "children"=>0, "boards"=>""}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (6.9ms)[0m  [1m[32mINSERT INTO "rooms" ("id", "name", "shortname", "occupancy", "men", "children", "subroom", "anchorate", "price", "availability", "board", "boards", "rtype", "rtype_name", "dec_avail", "min_price", "max_price", "woodoo", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["id", 39597], ["name", "Single Room"], ["shortname", "SIN1"], ["occupancy", 1], ["men", 1], ["children", 0], ["subroom", 0], ["anchorate", 0], ["price", 50.0], ["availability", 1], ["board", "bb"], ["boards", ""], ["rtype", 1], ["rtype_name", "Room"], ["dec_avail", 0], ["min_price", 0], ["max_price", 0], ["woodoo", 0], ["created_at", "2018-05-24 16:00:11.505346"], ["updated_at", "2018-05-24 16:00:11.505346"]]
+  [1m[35m (15.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mRoom Exists (1.1ms)[0m  [1m[34mSELECT  1 AS one FROM "rooms" WHERE "rooms"."id" = ? LIMIT ?[0m  [["id", 61774], ["LIMIT", 1]]
+{"anchorate"=>39595, "name"=>"Tripla 2pax", "rtype"=>1, "dec_avail"=>0, "price"=>85.0, "men"=>2, "subroom"=>39595, "occupancy"=>2, "id"=>61774, "min_price"=>0, "board"=>"bb", "availability"=>2, "woodoo"=>1, "shortname"=>"TRP2", "max_price"=>0, "rtype_name"=>"Room", "children"=>0, "boards"=>""}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (4.9ms)[0m  [1m[32mINSERT INTO "rooms" ("id", "name", "shortname", "occupancy", "men", "children", "subroom", "anchorate", "price", "availability", "board", "boards", "rtype", "rtype_name", "dec_avail", "min_price", "max_price", "woodoo", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["id", 61774], ["name", "Tripla 2pax"], ["shortname", "TRP2"], ["occupancy", 2], ["men", 2], ["children", 0], ["subroom", 39595], ["anchorate", 39595], ["price", 85.0], ["availability", 2], ["board", "bb"], ["boards", ""], ["rtype", 1], ["rtype_name", "Room"], ["dec_avail", 0], ["min_price", 0], ["max_price", 0], ["woodoo", 1], ["created_at", "2018-05-24 16:00:11.558324"], ["updated_at", "2018-05-24 16:00:11.558324"]]
+  [1m[35m (11.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mRoom Exists (3.0ms)[0m  [1m[34mSELECT  1 AS one FROM "rooms" WHERE "rooms"."id" = ? LIMIT ?[0m  [["id", 44177], ["LIMIT", 1]]
+{"anchorate"=>0, "name"=>"Suite", "rtype"=>2, "dec_avail"=>0, "price"=>90.0, "men"=>4, "subroom"=>0, "occupancy"=>4, "id"=>44177, "min_price"=>0, "board"=>"nb", "availability"=>1, "woodoo"=>0, "shortname"=>"APP", "max_price"=>0, "rtype_name"=>"Apartment", "children"=>0, "boards"=>{"bb"=>{"dtype"=>2, "value"=>15.0}}}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (4.0ms)[0m  [1m[32mINSERT INTO "rooms" ("id", "name", "shortname", "occupancy", "men", "children", "subroom", "anchorate", "price", "availability", "board", "boards", "rtype", "rtype_name", "dec_avail", "min_price", "max_price", "woodoo", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["id", 44177], ["name", "Suite"], ["shortname", "APP"], ["occupancy", 4], ["men", 4], ["children", 0], ["subroom", 0], ["anchorate", 0], ["price", 90.0], ["availability", 1], ["board", "nb"], ["boards", "{\"bb\"=>{\"dtype\"=>2, \"value\"=>15.0}}"], ["rtype", 2], ["rtype_name", "Apartment"], ["dec_avail", 0], ["min_price", 0], ["max_price", 0], ["woodoo", 0], ["created_at", "2018-05-24 16:00:11.602300"], ["updated_at", "2018-05-24 16:00:11.602300"]]
+  [1m[35m (15.0ms)[0m  [1m[36mcommit transaction[0m
+  Rendering wubook/index.html.erb within layouts/application
+  Rendered wubook/index.html.erb within layouts/application (7.0ms)
+Started GET "/rooms" for 127.0.0.1 at 2018-05-24 18:00:21 +0200
+Completed 200 OK in 38790ms (Views: 11774.9ms | ActiveRecord: 196.8ms)
+
+
+Processing by RoomsController#index as HTML
+  Rendering rooms/index.html.erb within layouts/application
+  [1m[36mRoom Load (1.0ms)[0m  [1m[34mSELECT "rooms".* FROM "rooms"[0m
+  Rendered rooms/index.html.erb within layouts/application (43.0ms)
+Completed 200 OK in 651ms (Views: 525.1ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 18:29:33 +0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendering c:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/railties-5.1.6/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered c:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/railties-5.1.6/lib/rails/templates/rails/welcome/index.html.erb (8.0ms)
+Completed 200 OK in 260ms (Views: 117.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/wubook/index" for 127.0.0.1 at 2018-05-24 18:39:11 +0200
+Processing by WubookController#index as HTML
+getToken - Received : 2341004425.4200
+Completed 500 Internal Server Error in 621ms
+
+
+  
+XMLRPC::FaultException (error):
+  
+app/services/wubook_service.rb:30:in `fetchReservation'
+app/controllers/wubook_controller.rb:10:in `index'
+Started GET "/wubook/index" for 127.0.0.1 at 2018-05-24 18:40:05 +0200
+Processing by WubookController#index as HTML
+getToken - Received : 2333522158.5596
+Completed 500 Internal Server Error in 1118ms
+
+
+  
+NameError (undefined local variable or method `logger' for #<WubookService:0xbfe7838>):
+  
+app/services/wubook_service.rb:32:in `fetchReservation'
+app/controllers/wubook_controller.rb:10:in `index'
+Started GET "/wubook/index" for 127.0.0.1 at 2018-05-24 18:40:17 +0200
+Processing by WubookController#index as HTML
+getToken - Received : 2328022763.3866
+[0, [{"id_channel"=>0, "special_offer"=>"", "reservation_code"=>1524726119, "dayprices"=>{"39594"=>[85.0]}, "arrival_hour"=>"", "booked_rate"=>0, "rooms"=>"39594", "customer_mail"=>"giada.terzani@hmail.com", "customer_country"=>"--", "children"=>0, "payment_gateway_fee"=>"", "modified_reservations"=>[], "customer_surname"=>"Francoise ", "rooms_occupancies"=>[{"id"=>39594, "occupancy"=>2}], "date_departure"=>"02/05/2018", "amount_reason"=>"", "customer_city"=>"", "opportunities"=>0, "date_received"=>"26/04/2018", "was_modified"=>0, "sessionSeed"=>"", "booked_rooms"=>[{"ancillary"=>{}, "roomdays"=>[{"ancillary"=>{}, "rate_id"=>0, "price"=>85.0, "day"=>"01/05/2018"}], "room_id"=>39594}], "customer_name"=>"Francoise ", "date_arrival"=>"01/05/2018", "status"=>1, "channel_data"=>{}, "channel_reservation_code"=>"", "customer_phone"=>"", "orig_amount"=>70.0, "men"=>2, "customer_notes"=>"", "customer_address"=>"", "device"=>-1, "addons_list"=>[], "status_reason"=>"", "roomnight"=>2, "boards"=>"", "discount"=>{"code"=>"YB: Custom Discount", "name"=>"YB: Custom Discount", "value"=>17.647058823529417, "pricing_plan"=>-1, "type"=>7, "id"=>""}, "customer_language"=>1, "fount"=>"1946abbfb5d94fb6961da5eb657408e3", "customer_zip"=>"", "amount"=>70.0, "id_woodoo"=>"", "cc_info"=>0, "room_opportunities"=>1, "customer_language_iso"=>"it"}, {"id_channel"=>2, "special_offer"=>"", "reservation_code"=>1524043086, "dayprices"=>{"39597"=>[45.9, 45.9]}, "arrival_hour"=>"--", "booked_rate"=>70843, "rooms"=>"39597", "customer_mail"=>"slicci.298859@guest.booking.com", "customer_country"=>"IT", "children"=>0, "payment_gateway_fee"=>"", "modified_reservations"=>[], "customer_surname"=>"Licciardello", "rooms_occupancies"=>[{"id"=>39597, "occupancy"=>1}], "date_departure"=>"05/05/2018", "amount_reason"=>"", "customer_city"=>"Trecastagni", "opportunities"=>0, "date_received"=>"18/04/2018", "was_modified"=>0, "sessionSeed"=>"", "booked_rooms"=>[{"ancillary"=>{"channel_room_id"=>34997901, "channel_room_name"=>"Camera Singola", "addons"=>[], "guests"=>1}, "roomdays"=>[{"ancillary"=>{}, "rate_id"=>70843, "price"=>45.9, "day"=>"03/05/2018"}, {"ancillary"=>{}, "rate_id"=>70843, "price"=>45.9, "day"=>"04/05/2018"}], "room_id"=>39597}], "customer_name"=>"Salvatore", "date_arrival"=>"03/05/2018", "status"=>1, "channel_data"=>{}, "channel_reservation_code"=>"1392998259", "customer_phone"=>"+39 366 377 2345", "orig_amount"=>91.8, "men"=>1, "customer_notes"=>"", "customer_address"=>"Via Messina 5", "device"=>-1, "addons_list"=>[{"price"=>7.0, "req"=>2, "name"=>"Tassa di soggiorno"}], "status_reason"=>"", "roomnight"=>2, "boards"=>"", "customer_language"=>1, "fount"=>"", "customer_zip"=>"95039", "amount"=>91.8, "id_woodoo"=>12701, "cc_info"=>0, "room_opportunities"=>0, "customer_language_iso"=>"it"}, {"id_channel"=>1, "special_offer"=>"", "reservation_code"=>1522344709, "dayprices"=>{"39596"=>[63.98, 63.98, 63.98, 63.98]}, "arrival_hour"=>"--", "booked_rate"=>70843, "rooms"=>"39596", "customer_mail"=>"", "customer_country"=>"--", "children"=>2, "payment_gateway_fee"=>"", "modified_reservations"=>[], "customer_surname"=>"SHEVCHENKO", "rooms_occupancies"=>[{"id"=>39596, "occupancy"=>4}], "date_departure"=>"06/05/2018", "amount_reason"=>"", "customer_city"=>"", "opportunities"=>0, "date_received"=>"29/03/2018", "was_modified"=>0, "sessionSeed"=>"", "booked_rooms"=>[{"ancillary"=>{"channel_rate_name"=>"Package Breakfast Included+Free Wifi2", "amountOfTaxes"=>0.0}, "roomdays"=>[{"ancillary"=>{}, "rate_id"=>70843, "price"=>63.98, "day"=>"02/05/2018"}, {"ancillary"=>{}, "rate_id"=>70843, "price"=>63.98, "day"=>"03/05/2018"}, {"ancillary"=>{}, "rate_id"=>70843, "price"=>63.98, "day"=>"04/05/2018"}, {"ancillary"=>{}, "rate_id"=>70843, "price"=>63.98, "day"=>"05/05/2018"}], "room_id"=>39596}], "customer_name"=>"DENIS", "date_arrival"=>"02/05/2018", "status"=>1, "channel_data"=>{"pay_model"=>"merchant"}, "channel_reservation_code"=>"1011402947", "customer_phone"=>"79191057725", "orig_amount"=>255.92, "men"=>2, "customer_notes"=>"1 double and 2 single beds, Non-Smoking, Expedia Virtual Card will be activated from the day of Check-in.", "customer_address"=>"", "device"=>-1, "addons_list"=>[], "status_reason"=>"", "roomnight"=>16, "boards"=>"", "customer_language"=>2, "fount"=>"", "customer_zip"=>"", "amount"=>255.92, "id_woodoo"=>17136, "cc_info"=>0, "room_opportunities"=>0, "customer_language_iso"=>"en"}, {"id_channel"=>2, "special_offer"=>"", "reservation_code"=>1522060101, "dayprices"=>{"39595"=>[97.1, 97.1]}, "arrival_hour"=>"--", "booked_rate"=>70843, "rooms"=>"39595", "customer_mail"=>"adecke.882201@guest.booking.com", "customer_country"=>"BE", "children"=>0, "payment_gateway_fee"=>"", "modified_reservations"=>[], "customer_surname"=>"Deckers", "rooms_occupancies"=>[{"id"=>39595, "occupancy"=>2}], "date_departure"=>"04/05/2018", "amount_reason"=>"", "customer_city"=>"", "opportunities"=>0, "date_received"=>"26/03/2018", "was_modified"=>0, "sessionSeed"=>"", "booked_rooms"=>[{"ancillary"=>{"channel_room_id"=>34997903, "channel_room_name"=>"Camera Tripla", "addons"=>[], "guests"=>2}, "roomdays"=>[{"ancillary"=>{}, "rate_id"=>70843, "price"=>97.1, "day"=>"02/05/2018"}, {"ancillary"=>{}, "rate_id"=>70843, "price"=>97.1, "day"=>"03/05/2018"}], "room_id"=>39595}], "customer_name"=>"Ann", "date_arrival"=>"02/05/2018", "status"=>1, "channel_data"=>{}, "channel_reservation_code"=>"1510444608", "customer_phone"=>"+32 7772285", "orig_amount"=>194.2, "men"=>2, "customer_notes"=>"Viaggio per motivi di lavoro e potrei utilizzare una carta di credito aziendale.", "customer_address"=>"", "device"=>-1, "addons_list"=>[{"price"=>14.0, "req"=>4, "name"=>"Tassa di soggiorno"}], "status_reason"=>"", "roomnight"=>6, "boards"=>"", "customer_language"=>4, "fount"=>"", "customer_zip"=>"", "amount"=>194.2, "id_woodoo"=>12701, "cc_info"=>0, "room_opportunities"=>0, "customer_language_iso"=>"fr"}, {"id_channel"=>2, "special_offer"=>"", "reservation_code"=>1519990033, "dayprices"=>{"39597"=>[45.9, 45.9, 45.9, 45.9, 45.9]}, "arrival_hour"=>"--", "booked_rate"=>70843, "rooms"=>"39597", "customer_mail"=>"dmead.966599@guest.booking.com", "customer_country"=>"GB", "children"=>0, "payment_gateway_fee"=>"", "modified_reservations"=>[], "customer_surname"=>"Mead", "deleted_at"=>"10/04/2018", "rooms_occupancies"=>[{"id"=>39597, "occupancy"=>1}], "date_departure"=>"08/05/2018", "amount_reason"=>"", "customer_city"=>"Gosport", "opportunities"=>0, "date_received"=>"02/03/2018", "was_modified"=>0, "sessionSeed"=>"", "booked_rooms"=>[{"ancillary"=>{"channel_room_id"=>34997901, "channel_room_name"=>"Camera Singola", "addons"=>[], "guests"=>1}, "roomdays"=>[{"ancillary"=>{}, "rate_id"=>70843, "price"=>45.9, "day"=>"03/05/2018"}, {"ancillary"=>{}, "rate_id"=>70843, "price"=>45.9, "day"=>"04/05/2018"}, {"ancillary"=>{}, "rate_id"=>70843, "price"=>45.9, "day"=>"05/05/2018"}, {"ancillary"=>{}, "rate_id"=>70843, "price"=>45.9, "day"=>"06/05/2018"}, {"ancillary"=>{}, "rate_id"=>70843, "price"=>45.9, "day"=>"07/05/2018"}], "room_id"=>39597}], "customer_name"=>"Deborah", "date_arrival"=>"03/05/2018", "status"=>5, "channel_data"=>{}, "channel_reservation_code"=>"1661218184", "customer_phone"=>"+44 7510 586451", "orig_amount"=>229.5, "men"=>1, "customer_notes"=>"Vegetarian...I would like to arrange a airport shuttle service", "customer_address"=>"86 sydney road", "device"=>-1, "addons_list"=>[{"price"=>17.5, "req"=>5, "name"=>"Tassa di soggiorno"}], "status_reason"=>"Vegetarian...I would like to arrange a airport shuttle service", "roomnight"=>5, "boards"=>"", "customer_language"=>2, "fount"=>"", "customer_zip"=>"po121pl", "amount"=>229.5, "id_woodoo"=>12701, "deleted_advance"=>23, "deleted_from"=>3, "cc_info"=>0, "room_opportunities"=>0, "customer_language_iso"=>"en"}, {"id_channel"=>1, "special_offer"=>"", "reservation_code"=>1518114680, "dayprices"=>{"39597"=>[41.82]}, "arrival_hour"=>"--", "booked_rate"=>70843, "rooms"=>"39597", "customer_mail"=>"", "customer_country"=>"--", "children"=>0, "payment_gateway_fee"=>"", "modified_reservations"=>[], "customer_surname"=>"deblasi", "rooms_occupancies"=>[{"id"=>39597, "occupancy"=>1}], "date_departure"=>"03/05/2018", "amount_reason"=>"", "customer_city"=>"", "opportunities"=>0, "date_received"=>"08/02/2018", "was_modified"=>0, "sessionSeed"=>"", "booked_rooms"=>[{"ancillary"=>{"channel_rate_name"=>"Standalone Breakfast Included+Free Wifi", "amountOfTaxes"=>0.0}, "roomdays"=>[{"ancillary"=>{}, "rate_id"=>70843, "price"=>41.82, "day"=>"02/05/2018"}], "room_id"=>39597}], "customer_name"=>"michael", "date_arrival"=>"02/05/2018", "status"=>1, "channel_data"=>{"pay_model"=>"merchant"}, "channel_reservation_code"=>"982152104", "customer_phone"=>"17742329762", "orig_amount"=>41.82, "men"=>1, "customer_notes"=>"Non-Smoking, 1 Twin Bed, Bill only nghts bkd by Expedia to cc# @ ck-in  gst pays incid", "customer_address"=>"", "device"=>-1, "addons_list"=>[], "status_reason"=>"", "roomnight"=>1, "boards"=>"", "customer_language"=>2, "fount"=>"", "customer_zip"=>"", "amount"=>41.82, "id_woodoo"=>17136, "cc_info"=>0, "room_opportunities"=>0, "customer_language_iso"=>"en"}, {"id_channel"=>43, "special_offer"=>"", "reservation_code"=>1516351020, "dayprices"=>{"44177"=>[65.0, 65.0]}, "arrival_hour"=>"--", "booked_rate"=>33836, "rooms"=>"44177", "customer_mail"=>"ilyana-r4e3vxckaz0auusx@guest.airbnb.com", "customer_country"=>"--", "children"=>0, "payment_gateway_fee"=>"", "modified_reservations"=>[], "customer_surname"=>"Sevova", "rooms_occupancies"=>[{"id"=>44177, "occupancy"=>2}], "date_departure"=>"05/05/2018", "amount_reason"=>"", "customer_city"=>"--", "opportunities"=>0, "date_received"=>"19/01/2018", "was_modified"=>0, "sessionSeed"=>"", "booked_rooms"=>[{"ancillary"=>{"auto_generated"=>true}, "roomdays"=>[{"ancillary"=>{}, "rate_id"=>33836, "price"=>65.0, "day"=>"03/05/2018"}, {"ancillary"=>{}, "rate_id"=>33836, "price"=>65.0, "day"=>"04/05/2018"}], "room_id"=>44177}], "customer_name"=>"Ilyana", "date_arrival"=>"03/05/2018", "status"=>1, "channel_data"=>{}, "channel_reservation_code"=>"604639752", "customer_phone"=>"+359 88 291 40 87", "orig_amount"=>130.0, "men"=>2, "customer_notes"=>"--", "customer_address"=>"--", "device"=>-1, "addons_list"=>[], "status_reason"=>"", "roomnight"=>8, "boards"=>"", "customer_language"=>2, "fount"=>"", "customer_zip"=>"", "amount"=>130.0, "id_woodoo"=>43321, "cc_info"=>0, "room_opportunities"=>0, "customer_language_iso"=>"en"}, {"id_channel"=>43, "special_offer"=>"", "reservation_code"=>1515951014, "dayprices"=>{"39594"=>[43.666666666666664, 43.666666666666664, 43.666666666666664, 43.666666666666664, 43.666666666666664, 43.666666666666664]}, "arrival_hour"=>"--", "booked_rate"=>33836, "rooms"=>"39594", "customer_mail"=>"leonie-kpzkotum6xm15xuu@guest.airbnb.com", "customer_country"=>"--", "children"=>0, "payment_gateway_fee"=>"", "modified_reservations"=>[], "customer_surname"=>"Hagen", "rooms_occupancies"=>[{"id"=>39594, "occupancy"=>2}], "date_departure"=>"08/05/2018", "amount_reason"=>"", "customer_city"=>"--", "opportunities"=>0, "date_received"=>"14/01/2018", "was_modified"=>0, "sessionSeed"=>"", "booked_rooms"=>[{"ancillary"=>{"auto_generated"=>true}, "roomdays"=>[{"ancillary"=>{}, "rate_id"=>33836, "price"=>43.67, "day"=>"02/05/2018"}, {"ancillary"=>{}, "rate_id"=>33836, "price"=>43.67, "day"=>"03/05/2018"}, {"ancillary"=>{}, "rate_id"=>33836, "price"=>43.67, "day"=>"04/05/2018"}, {"ancillary"=>{}, "rate_id"=>33836, "price"=>43.67, "day"=>"05/05/2018"}, {"ancillary"=>{}, "rate_id"=>33836, "price"=>43.67, "day"=>"06/05/2018"}, {"ancillary"=>{}, "rate_id"=>33836, "price"=>43.67, "day"=>"07/05/2018"}], "room_id"=>39594}], "customer_name"=>"Leonie", "date_arrival"=>"02/05/2018", "status"=>1, "channel_data"=>{}, "channel_reservation_code"=>"597837340", "customer_phone"=>"+49 173 9176 237", "orig_amount"=>262.0, "men"=>2, "customer_notes"=>"--", "customer_address"=>"--", "device"=>-1, "addons_list"=>[], "status_reason"=>"", "roomnight"=>12, "boards"=>"", "customer_language"=>2, "fount"=>"", "customer_zip"=>"", "amount"=>262.0, "id_woodoo"=>43321, "cc_info"=>0, "room_opportunities"=>0, "customer_language_iso"=>"en"}]]
+Completed 500 Internal Server Error in 915ms
+
+
+  
+ArgumentError (wrong number of arguments (given 1, expected 0)):
+  
+app/controllers/wubook_controller.rb:12:in `index'
+Started GET "/wubook/index" for 127.0.0.1 at 2018-05-26 08:53:35 +0200
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WubookController#index as HTML
+getToken - Received : 1391128638.4055
+[0, [{"id_channel"=>2, "special_offer"=>"", "reservation_code"=>1527104466, "dayprices"=>{"39596"=>[122.4]}, "arrival_hour"=>"--", "booked_rate"=>70843, "rooms"=>"39596", "customer_mail"=>"gtutch.473134@guest.booking.com", "customer_country"=>"IT", "children"=>2, "payment_gateway_fee"=>"", "modified_reservations"=>[], "customer_surname"=>"Tutchetta", "rooms_occupancies"=>[{"id"=>39596, "occupancy"=>4}], "date_departure"=>"26/05/2018", "amount_reason"=>"", "customer_city"=>"", "opportunities"=>0, "date_received"=>"23/05/2018", "was_modified"=>0, "sessionSeed"=>"", "booked_rooms"=>[{"ancillary"=>{"channel_room_id"=>34997904, "channel_room_name"=>"Camera Quadrupla", "addons"=>[], "guests"=>4}, "roomdays"=>[{"ancillary"=>{}, "rate_id"=>70843, "price"=>122.4, "day"=>"25/05/2018"}], "room_id"=>39596}], "customer_name"=>"Gaetano", "date_arrival"=>"25/05/2018", "status"=>1, "channel_data"=>{}, "channel_reservation_code"=>"1918161388", "customer_phone"=>"+39 347 159 7261", "orig_amount"=>122.4, "men"=>2, "customer_notes"=>"** DO NOT CHARGE CREDIT CARD **\nFloor preference (if available):\nQuadruple Room: Upper-storey\n\nParcheggio presente?", "customer_address"=>"", "device"=>-1, "addons_list"=>[{"price"=>14.0, "req"=>4, "name"=>"Tassa di soggiorno"}], "status_reason"=>"", "roomnight"=>4, "boards"=>"", "customer_language"=>1, "fount"=>"", "customer_zip"=>"", "amount"=>122.4, "id_woodoo"=>12701, "cc_info"=>0, "room_opportunities"=>0, "customer_language_iso"=>"it"}, {"id_channel"=>2, "special_offer"=>"", "reservation_code"=>1526831829, "dayprices"=>{"39597"=>[51.0]}, "arrival_hour"=>"--", "booked_rate"=>70843, "rooms"=>"39597", "customer_mail"=>"abalda.420081@guest.booking.com", "customer_country"=>"IT", "children"=>0, "payment_gateway_fee"=>"", "modified_reservations"=>[], "customer_surname"=>"Baldassarri", "rooms_occupancies"=>[{"id"=>39597, "occupancy"=>1}], "date_departure"=>"25/05/2018", "amount_reason"=>"", "customer_city"=>"Ascoli Piceno", "opportunities"=>0, "date_received"=>"20/05/2018", "was_modified"=>0, "sessionSeed"=>"", "booked_rooms"=>[{"ancillary"=>{"channel_room_id"=>34997901, "channel_room_name"=>"Camera Singola", "addons"=>[], "guests"=>1}, "roomdays"=>[{"ancillary"=>{}, "rate_id"=>70843, "price"=>51.0, "day"=>"24/05/2018"}], "room_id"=>39597}], "customer_name"=>"ALESSANDRA", "date_arrival"=>"24/05/2018", "status"=>1, "channel_data"=>{}, "channel_reservation_code"=>"1383764571", "customer_phone"=>"+39 320 080 5298", "orig_amount"=>51.0, "men"=>1, "customer_notes"=>"** DO NOT CHARGE CREDIT CARD **\nViaggio per motivi di lavoro e potrei utilizzare una carta di credito aziendale.\n\nFloor preference (if available):\nSingle Room: Upper-storey", "customer_address"=>"Via Tolentino 6A", "device"=>-1, "addons_list"=>[{"price"=>3.5, "req"=>1, "name"=>"Tassa di soggiorno"}], "status_reason"=>"", "roomnight"=>1, "boards"=>"", "customer_language"=>1, "fount"=>"", "customer_zip"=>"63100", "amount"=>51.0, "id_woodoo"=>12701, "cc_info"=>0, "room_opportunities"=>0, "customer_language_iso"=>"it"}, {"id_channel"=>2, "special_offer"=>"", "reservation_code"=>1526066754, "dayprices"=>{"39594"=>[81.6]}, "arrival_hour"=>"--", "booked_rate"=>70843, "rooms"=>"39594", "customer_mail"=>"gforci.380684@guest.booking.com", "customer_country"=>"IT", "children"=>0, "payment_gateway_fee"=>"", "modified_reservations"=>[], "customer_surname"=>"Forcina", "rooms_occupancies"=>[{"id"=>39594, "occupancy"=>2}], "date_departure"=>"25/05/2018", "amount_reason"=>"", "customer_city"=>"", "opportunities"=>0, "date_received"=>"11/05/2018", "was_modified"=>0, "sessionSeed"=>"", "booked_rooms"=>[{"ancillary"=>{"channel_room_id"=>34997902, "channel_room_name"=>"Camera Matrimoniale", "addons"=>[], "guests"=>2}, "roomdays"=>[{"ancillary"=>{}, "rate_id"=>70843, "price"=>81.6, "day"=>"24/05/2018"}], "room_id"=>39594}], "customer_name"=>"Giorgiana", "date_arrival"=>"24/05/2018", "status"=>1, "channel_data"=>{}, "channel_reservation_code"=>"1209221461", "customer_phone"=>"+39 347 358 7421", "orig_amount"=>81.6, "men"=>2, "customer_notes"=>"** DO NOT CHARGE CREDIT CARD **\nFloor preference (if available):\nDouble Room: Upper-storey", "customer_address"=>"", "device"=>-1, "addons_list"=>[{"price"=>7.0, "req"=>2, "name"=>"Tassa di soggiorno"}], "status_reason"=>"", "roomnight"=>2, "boards"=>"", "customer_language"=>1, "fount"=>"", "customer_zip"=>"", "amount"=>81.6, "id_woodoo"=>12701, "cc_info"=>0, "room_opportunities"=>0, "customer_language_iso"=>"it"}, {"id_channel"=>1, "special_offer"=>"", "reservation_code"=>1525858393, "dayprices"=>{"39594"=>[51.18, 51.18, 51.18, 51.18, 51.18, 51.18, 51.18]}, "arrival_hour"=>"--", "booked_rate"=>70838, "rooms"=>"39594", "customer_mail"=>"", "customer_country"=>"--", "children"=>0, "payment_gateway_fee"=>"", "modified_reservations"=>[], "customer_surname"=>"LAFLUTTE", "rooms_occupancies"=>[{"id"=>39594, "occupancy"=>2}], "date_departure"=>"02/06/2018", "amount_reason"=>"", "customer_city"=>"", "opportunities"=>0, "date_received"=>"09/05/2018", "was_modified"=>0, "sessionSeed"=>"", "booked_rooms"=>[{"ancillary"=>{"channel_rate_name"=>"Package Not refundable RO", "amountOfTaxes"=>0.0}, "roomdays"=>[{"ancillary"=>{}, "rate_id"=>70838, "price"=>51.18, "day"=>"26/05/2018"}, {"ancillary"=>{}, "rate_id"=>70838, "price"=>51.18, "day"=>"27/05/2018"}, {"ancillary"=>{}, "rate_id"=>70838, "price"=>51.18, "day"=>"28/05/2018"}, {"ancillary"=>{}, "rate_id"=>70838, "price"=>51.18, "day"=>"29/05/2018"}, {"ancillary"=>{}, "rate_id"=>70838, "price"=>51.18, "day"=>"30/05/2018"}, {"ancillary"=>{}, "rate_id"=>70838, "price"=>51.18, "day"=>"31/05/2018"}, {"ancillary"=>{}, "rate_id"=>70838, "price"=>51.18, "day"=>"01/06/2018"}], "room_id"=>39594}], "customer_name"=>"Remy", "date_arrival"=>"26/05/2018", "status"=>1, "channel_data"=>{"pay_model"=>"merchant"}, "channel_reservation_code"=>"1035073491", "customer_phone"=>"330652926388", "orig_amount"=>358.26, "men"=>2, "customer_notes"=>"1 double bed, Non-Smoking, Expedia Virtual Card will be activated from the day of Check-in.", "customer_address"=>"", "device"=>-1, "addons_list"=>[], "status_reason"=>"", "roomnight"=>14, "boards"=>"", "customer_language"=>2, "fount"=>"", "customer_zip"=>"", "amount"=>358.26, "id_woodoo"=>17136, "cc_info"=>1, "room_opportunities"=>0, "customer_language_iso"=>"en"}, {"id_channel"=>2, "special_offer"=>"", "reservation_code"=>1525356031, "dayprices"=>{"39594"=>[62.42]}, "arrival_hour"=>"--", "booked_rate"=>70843, "rooms"=>"39594", "customer_mail"=>"ascala.103955@guest.booking.com", "customer_country"=>"IT", "children"=>0, "payment_gateway_fee"=>"", "modified_reservations"=>[], "customer_surname"=>"SCALA", "rooms_occupancies"=>[{"id"=>39594, "occupancy"=>2}], "date_departure"=>"26/05/2018", "amount_reason"=>"", "customer_city"=>"", "opportunities"=>0, "date_received"=>"03/05/2018", "was_modified"=>0, "sessionSeed"=>"", "booked_rooms"=>[{"ancillary"=>{"channel_room_id"=>34997902, "channel_room_name"=>"Camera Matrimoniale", "addons"=>[], "guests"=>2}, "roomdays"=>[{"ancillary"=>{}, "rate_id"=>70843, "price"=>62.42, "day"=>"25/05/2018"}], "room_id"=>39594}], "customer_name"=>"ANNA", "date_arrival"=>"25/05/2018", "status"=>1, "channel_data"=>{}, "channel_reservation_code"=>"1061079863", "customer_phone"=>"+39 366 633 9736", "orig_amount"=>62.42, "men"=>2, "customer_notes"=>"** DO NOT CHARGE CREDIT CARD **", "customer_address"=>"", "device"=>-1, "addons_list"=>[{"price"=>7.0, "req"=>2, "name"=>"Tassa di soggiorno"}], "status_reason"=>"", "roomnight"=>2, "boards"=>"", "customer_language"=>1, "fount"=>"", "customer_zip"=>"", "amount"=>62.42, "id_woodoo"=>12701, "cc_info"=>0, "room_opportunities"=>0, "customer_language_iso"=>"it"}, {"id_channel"=>2, "special_offer"=>"", "reservation_code"=>1525018675, "dayprices"=>{"39594"=>[78.03]}, "arrival_hour"=>"--", "booked_rate"=>70843, "rooms"=>"39594", "customer_mail"=>"twang.736275@guest.booking.com", "customer_country"=>"IT", "children"=>0, "payment_gateway_fee"=>"", "modified_reservations"=>[], "customer_surname"=>"wang", "deleted_at"=>"04/05/2018", "rooms_occupancies"=>[{"id"=>39594, "occupancy"=>1}], "date_departure"=>"27/05/2018", "amount_reason"=>"", "customer_city"=>"", "opportunities"=>0, "date_received"=>"29/04/2018", "was_modified"=>0, "sessionSeed"=>"", "booked_rooms"=>[{"ancillary"=>{"channel_room_id"=>34997902, "channel_room_name"=>"Camera Matrimoniale", "addons"=>[], "guests"=>1}, "roomdays"=>[{"ancillary"=>{}, "rate_id"=>70843, "price"=>78.03, "day"=>"26/05/2018"}], "room_id"=>39594}], "customer_name"=>"tian", "date_arrival"=>"26/05/2018", "status"=>5, "channel_data"=>{}, "channel_reservation_code"=>"1753310299", "customer_phone"=>"+8613770826493", "orig_amount"=>78.03, "men"=>1, "customer_notes"=>"** DO NOT CHARGE CREDIT CARD **", "customer_address"=>"", "device"=>-1, "addons_list"=>[{"price"=>3.5, "req"=>1, "name"=>"Tassa di soggiorno"}], "status_reason"=>"** DO NOT CHARGE CREDIT CARD **", "roomnight"=>2, "boards"=>"", "customer_language"=>1, "fount"=>"", "customer_zip"=>"", "amount"=>78.03, "id_woodoo"=>12701, "deleted_advance"=>22, "deleted_from"=>3, "cc_info"=>0, "room_opportunities"=>0, "customer_language_iso"=>"it"}, {"id_channel"=>2, "special_offer"=>"", "reservation_code"=>1524662287, "dayprices"=>{"39594"=>[66.32]}, "arrival_hour"=>"--", "booked_rate"=>70843, "rooms"=>"39594", "customer_mail"=>"twang.297295@guest.booking.com", "customer_country"=>"CN", "children"=>0, "payment_gateway_fee"=>"", "modified_reservations"=>[], "customer_surname"=>"wang", "deleted_at"=>"26/04/2018", "rooms_occupancies"=>[{"id"=>39594, "occupancy"=>1}], "date_departure"=>"27/05/2018", "amount_reason"=>"", "customer_city"=>"napoli", "opportunities"=>0, "date_received"=>"25/04/2018", "was_modified"=>0, "sessionSeed"=>"", "booked_rooms"=>[{"ancillary"=>{"channel_room_id"=>34997902, "channel_room_name"=>"Camera Matrimoniale", "addons"=>[], "guests"=>1}, "roomdays"=>[{"ancillary"=>{}, "rate_id"=>70843, "price"=>66.32, "day"=>"26/05/2018"}], "room_id"=>39594}], "customer_name"=>"tian", "date_arrival"=>"26/05/2018", "status"=>5, "channel_data"=>{}, "channel_reservation_code"=>"1823277029", "customer_phone"=>"+86 13779826493", "orig_amount"=>66.32, "men"=>1, "customer_notes"=>"** DO NOT CHARGE CREDIT CARD **", "customer_address"=>"corso vittorio emanuele 377", "device"=>-1, "addons_list"=>[{"price"=>3.5, "req"=>1, "name"=>"Tassa di soggiorno"}], "status_reason"=>"** DO NOT CHARGE CREDIT CARD **", "roomnight"=>2, "boards"=>"", "customer_language"=>2, "fount"=>"", "customer_zip"=>"80135", "amount"=>66.32, "id_woodoo"=>12701, "deleted_advance"=>30, "deleted_from"=>3, "cc_info"=>0, "room_opportunities"=>0, "customer_language_iso"=>"en"}, {"id_channel"=>2, "special_offer"=>"", "reservation_code"=>1524662130, "dayprices"=>{"39595"=>[97.1, 97.1, 97.1]}, "arrival_hour"=>"--", "booked_rate"=>70843, "rooms"=>"39595", "customer_mail"=>"rbhons.518438@guest.booking.com", "customer_country"=>"GB", "children"=>0, "payment_gateway_fee"=>"", "modified_reservations"=>[], "customer_surname"=>"Bhonsle", "rooms_occupancies"=>[{"id"=>39595, "occupancy"=>2}], "date_departure"=>"27/05/2018", "amount_reason"=>"", "customer_city"=>"London", "opportunities"=>0, "date_received"=>"25/04/2018", "was_modified"=>0, "sessionSeed"=>"", "booked_rooms"=>[{"ancillary"=>{"channel_room_id"=>34997903, "channel_room_name"=>"Camera Tripla", "addons"=>[], "guests"=>2}, "roomdays"=>[{"ancillary"=>{}, "rate_id"=>70843, "price"=>97.1, "day"=>"24/05/2018"}, {"ancillary"=>{}, "rate_id"=>70843, "price"=>97.1, "day"=>"25/05/2018"}, {"ancillary"=>{}, "rate_id"=>70843, "price"=>97.1, "day"=>"26/05/2018"}], "room_id"=>39595}], "customer_name"=>"Rachana", "date_arrival"=>"24/05/2018", "status"=>1, "channel_data"=>{}, "channel_reservation_code"=>"1811204015", "customer_phone"=>"+44 7920 274785", "orig_amount"=>291.3, "men"=>2, "customer_notes"=>"", "customer_address"=>"2 Worcester House", "device"=>-1, "addons_list"=>[{"price"=>21.0, "req"=>6, "name"=>"Tassa di soggiorno"}], "status_reason"=>"", "roomnight"=>9, "boards"=>"", "customer_language"=>2, "fount"=>"", "customer_zip"=>"N12DB", "amount"=>291.3, "id_woodoo"=>12701, "cc_info"=>1, "room_opportunities"=>0, "customer_language_iso"=>"en"}, {"id_channel"=>2, "special_offer"=>"", "reservation_code"=>1524134878, "dayprices"=>{"39596"=>[137.7]}, "arrival_hour"=>"--", "booked_rate"=>70843, "rooms"=>"39596", "customer_mail"=>"dmatte.922350@guest.booking.com", "customer_country"=>"IT", "children"=>2, "payment_gateway_fee"=>"", "modified_reservations"=>[], "customer_surname"=>"Matteucci", "deleted_at"=>"19/04/2018", "rooms_occupancies"=>[{"id"=>39596, "occupancy"=>4}], "date_departure"=>"27/05/2018", "amount_reason"=>"", "customer_city"=>"", "opportunities"=>0, "date_received"=>"19/04/2018", "was_modified"=>0, "sessionSeed"=>"", "booked_rooms"=>[{"ancillary"=>{"channel_room_id"=>34997904, "channel_room_name"=>"Camera Quadrupla", "addons"=>[], "guests"=>4}, "roomdays"=>[{"ancillary"=>{}, "rate_id"=>70843, "price"=>137.7, "day"=>"26/05/2018"}], "room_id"=>39596}], "customer_name"=>"Daniela", "date_arrival"=>"26/05/2018", "status"=>5, "channel_data"=>{}, "channel_reservation_code"=>"1858789221", "customer_phone"=>"+39 347 848 1824", "orig_amount"=>137.7, "men"=>2, "customer_notes"=>"** DO NOT CHARGE CREDIT CARD **\nFloor preference (if available):\nQuadruple Room: Upper-storey", "customer_address"=>"", "device"=>-1, "addons_list"=>[{"price"=>14.0, "req"=>4, "name"=>"Tassa di soggiorno"}], "status_reason"=>"** DO NOT CHARGE CREDIT CARD **\nFloor preference (if available):\nQuadruple Room: Upper-storey", "roomnight"=>4, "boards"=>"", "customer_language"=>1, "fount"=>"", "customer_zip"=>"", "amount"=>137.7, "id_woodoo"=>12701, "deleted_advance"=>37, "deleted_from"=>3, "cc_info"=>0, "room_opportunities"=>0, "customer_language_iso"=>"it"}, {"id_channel"=>2, "special_offer"=>"", "reservation_code"=>1523698588, "dayprices"=>{"39597"=>[51.0, 51.0, 51.0]}, "arrival_hour"=>"--", "booked_rate"=>70843, "rooms"=>"39597", "customer_mail"=>"kpuckm.262624@guest.booking.com", "customer_country"=>"AT", "children"=>0, "payment_gateway_fee"=>"", "modified_reservations"=>[], "customer_surname"=>"Puckmair", "rooms_occupancies"=>[{"id"=>39597, "occupancy"=>1}], "date_departure"=>"29/05/2018", "amount_reason"=>"", "customer_city"=>"", "opportunities"=>0, "date_received"=>"14/04/2018", "was_modified"=>0, "sessionSeed"=>"", "booked_rooms"=>[{"ancillary"=>{"channel_room_id"=>34997901, "channel_room_name"=>"Camera Singola", "addons"=>[], "guests"=>1}, "roomdays"=>[{"ancillary"=>{}, "rate_id"=>70843, "price"=>51.0, "day"=>"26/05/2018"}, {"ancillary"=>{}, "rate_id"=>70843, "price"=>51.0, "day"=>"27/05/2018"}, {"ancillary"=>{}, "rate_id"=>70843, "price"=>51.0, "day"=>"28/05/2018"}], "room_id"=>39597}], "customer_name"=>"Klaudia", "date_arrival"=>"26/05/2018", "status"=>1, "channel_data"=>{}, "channel_reservation_code"=>"1109765893", "customer_phone"=>"+43 650 5208780", "orig_amount"=>153.0, "men"=>1, "customer_notes"=>"", "customer_address"=>"", "device"=>-1, "addons_list"=>[{"price"=>10.5, "req"=>3, "name"=>"Tassa di soggiorno"}], "status_reason"=>"", "roomnight"=>3, "boards"=>"", "customer_language"=>8, "fount"=>"", "customer_zip"=>"", "amount"=>153.0, "id_woodoo"=>12701, "cc_info"=>1, "room_opportunities"=>0, "customer_language_iso"=>"de"}, {"id_channel"=>2, "special_offer"=>"", "reservation_code"=>1522744546, "dayprices"=>{"39597"=>[51.0]}, "arrival_hour"=>"--", "booked_rate"=>70843, "rooms"=>"39597", "customer_mail"=>"mbianc.688141@guest.booking.com", "customer_country"=>"IT", "children"=>0, "payment_gateway_fee"=>"", "modified_reservations"=>[], "customer_surname"=>"Bianchi", "rooms_occupancies"=>[{"id"=>39597, "occupancy"=>1}], "date_departure"=>"26/05/2018", "amount_reason"=>"", "customer_city"=>"", "opportunities"=>0, "date_received"=>"03/04/2018", "was_modified"=>0, "sessionSeed"=>"", "booked_rooms"=>[{"ancillary"=>{"channel_room_id"=>34997901, "channel_room_name"=>"Camera Singola", "addons"=>[], "guests"=>1}, "roomdays"=>[{"ancillary"=>{}, "rate_id"=>70843, "price"=>51.0, "day"=>"25/05/2018"}], "room_id"=>39597}], "customer_name"=>"Massimiliano", "date_arrival"=>"25/05/2018", "status"=>1, "channel_data"=>{}, "channel_reservation_code"=>"1512712704", "customer_phone"=>"+39 347 816 0377", "orig_amount"=>51.0, "men"=>1, "customer_notes"=>"** DO NOT CHARGE CREDIT CARD **", "customer_address"=>"", "device"=>-1, "addons_list"=>[{"price"=>3.5, "req"=>1, "name"=>"Tassa di soggiorno"}], "status_reason"=>"", "roomnight"=>1, "boards"=>"", "customer_language"=>1, "fount"=>"", "customer_zip"=>"", "amount"=>51.0, "id_woodoo"=>12701, "cc_info"=>0, "room_opportunities"=>0, "customer_language_iso"=>"it"}, {"id_channel"=>1, "special_offer"=>"", "reservation_code"=>1522700014, "dayprices"=>{"39594"=>[60.43, 60.43, 60.43, 60.43]}, "arrival_hour"=>"--", "booked_rate"=>70838, "rooms"=>"39594", "customer_mail"=>"", "customer_country"=>"--", "children"=>0, "payment_gateway_fee"=>"", "modified_reservations"=>[], "customer_surname"=>"Toussaint", "rooms_occupancies"=>[{"id"=>39594, "occupancy"=>2}], "date_departure"=>"29/05/2018", "amount_reason"=>"", "customer_city"=>"", "opportunities"=>0, "date_received"=>"02/04/2018", "was_modified"=>0, "sessionSeed"=>"", "booked_rooms"=>[{"ancillary"=>{"channel_rate_name"=>"Standalone Not refundable RO", "amountOfTaxes"=>0.0}, "roomdays"=>[{"ancillary"=>{}, "rate_id"=>70838, "price"=>60.43, "day"=>"25/05/2018"}, {"ancillary"=>{}, "rate_id"=>70838, "price"=>60.43, "day"=>"26/05/2018"}, {"ancillary"=>{}, "rate_id"=>70838, "price"=>60.43, "day"=>"27/05/2018"}, {"ancillary"=>{}, "rate_id"=>70838, "price"=>60.43, "day"=>"28/05/2018"}], "room_id"=>39594}], "customer_name"=>"Louis", "date_arrival"=>"25/05/2018", "status"=>1, "channel_data"=>{"pay_model"=>"merchant"}, "channel_reservation_code"=>"1013464167", "customer_phone"=>"000608849007", "orig_amount"=>241.72, "men"=>2, "customer_notes"=>"1 double bed, Non-Smoking, Expedia Virtual Card will be activated from the day of Check-in.", "customer_address"=>"", "device"=>-1, "addons_list"=>[], "status_reason"=>"", "roomnight"=>8, "boards"=>"", "customer_language"=>2, "fount"=>"", "customer_zip"=>"", "amount"=>241.72, "id_woodoo"=>17136, "cc_info"=>1, "room_opportunities"=>0, "customer_language_iso"=>"en"}, {"id_channel"=>2, "special_offer"=>"", "reservation_code"=>1518266874, "dayprices"=>{"39597"=>[45.9, 45.9, 45.9]}, "arrival_hour"=>"--", "booked_rate"=>70843, "rooms"=>"39597", "customer_mail"=>"vdomen.696858@guest.booking.com", "customer_country"=>"IT", "children"=>0, "payment_gateway_fee"=>"", "modified_reservations"=>[], "customer_surname"=>"Di Domenico", "deleted_at"=>"29/03/2018", "rooms_occupancies"=>[{"id"=>39597, "occupancy"=>1}], "date_departure"=>"27/05/2018", "amount_reason"=>"", "customer_city"=>"Novara", "opportunities"=>0, "date_received"=>"10/02/2018", "was_modified"=>0, "sessionSeed"=>"", "booked_rooms"=>[{"ancillary"=>{"channel_room_id"=>34997901, "channel_room_name"=>"Camera Singola", "addons"=>[], "guests"=>1}, "roomdays"=>[{"ancillary"=>{}, "rate_id"=>70843, "price"=>45.9, "day"=>"24/05/2018"}, {"ancillary"=>{}, "rate_id"=>70843, "price"=>45.9, "day"=>"25/05/2018"}, {"ancillary"=>{}, "rate_id"=>70843, "price"=>45.9, "day"=>"26/05/2018"}], "room_id"=>39597}], "customer_name"=>"Vittorio", "date_arrival"=>"24/05/2018", "status"=>5, "channel_data"=>{}, "channel_reservation_code"=>"1474236752", "customer_phone"=>"+39 346 187 6576", "orig_amount"=>137.7, "men"=>1, "customer_notes"=>"", "customer_address"=>"Via Giolitti 4&#47;B", "device"=>-1, "addons_list"=>[{"price"=>10.5, "req"=>3, "name"=>"Tassa di soggiorno"}], "status_reason"=>"Unknown reason", "roomnight"=>3, "boards"=>"", "customer_language"=>1, "fount"=>"", "customer_zip"=>"28100", "amount"=>137.7, "id_woodoo"=>12701, "deleted_advance"=>56, "deleted_from"=>3, "cc_info"=>1, "room_opportunities"=>0, "customer_language_iso"=>"it"}, {"id_channel"=>43, "special_offer"=>"", "reservation_code"=>1516285605, "dayprices"=>{"44177"=>[92.75, 92.75, 92.75, 92.75]}, "arrival_hour"=>"--", "booked_rate"=>33836, "rooms"=>"44177", "customer_mail"=>"roxanne-ai204m2mk1xl3tzy@guest.airbnb.com", "customer_country"=>"--", "children"=>0, "payment_gateway_fee"=>"", "modified_reservations"=>[], "customer_surname"=>"Hadjineophytou", "rooms_occupancies"=>[{"id"=>44177, "occupancy"=>3}], "date_departure"=>"28/05/2018", "amount_reason"=>"", "customer_city"=>"--", "opportunities"=>0, "date_received"=>"18/01/2018", "was_modified"=>0, "sessionSeed"=>"", "booked_rooms"=>[{"ancillary"=>{"auto_generated"=>true}, "roomdays"=>[{"ancillary"=>{}, "rate_id"=>33836, "price"=>92.75, "day"=>"24/05/2018"}, {"ancillary"=>{}, "rate_id"=>33836, "price"=>92.75, "day"=>"25/05/2018"}, {"ancillary"=>{}, "rate_id"=>33836, "price"=>92.75, "day"=>"26/05/2018"}, {"ancillary"=>{}, "rate_id"=>33836, "price"=>92.75, "day"=>"27/05/2018"}], "room_id"=>44177}], "customer_name"=>"Roxanne", "date_arrival"=>"24/05/2018", "status"=>1, "channel_data"=>{}, "channel_reservation_code"=>"603596576", "customer_phone"=>"+357 96 283421", "orig_amount"=>371.0, "men"=>3, "customer_notes"=>"--", "customer_address"=>"--", "device"=>-1, "addons_list"=>[], "status_reason"=>"", "roomnight"=>16, "boards"=>"", "customer_language"=>2, "fount"=>"", "customer_zip"=>"", "amount"=>371.0, "id_woodoo"=>43321, "cc_info"=>0, "room_opportunities"=>0, "customer_language_iso"=>"en"}, {"id_channel"=>43, "special_offer"=>"", "reservation_code"=>1514427985, "dayprices"=>{"39594"=>[53.0, 53.0, 53.0]}, "arrival_hour"=>"--", "booked_rate"=>33836, "rooms"=>"39594", "customer_mail"=>"carol-dp2axk84s80ci8jq@guest.airbnb.com", "customer_country"=>"--", "children"=>0, "payment_gateway_fee"=>"", "modified_reservations"=>[], "customer_surname"=>"Lepine", "deleted_at"=>"18/01/2018", "rooms_occupancies"=>[{"id"=>39594, "occupancy"=>2}], "date_departure"=>"28/05/2018", "amount_reason"=>"", "customer_city"=>"--", "opportunities"=>0, "date_received"=>"28/12/2017", "was_modified"=>0, "sessionSeed"=>"", "booked_rooms"=>[{"ancillary"=>{"auto_generated"=>true}, "roomdays"=>[{"ancillary"=>{}, "rate_id"=>33836, "price"=>53.0, "day"=>"25/05/2018"}, {"ancillary"=>{}, "rate_id"=>33836, "price"=>53.0, "day"=>"26/05/2018"}, {"ancillary"=>{}, "rate_id"=>33836, "price"=>53.0, "day"=>"27/05/2018"}], "room_id"=>39594}], "customer_name"=>"Carol", "date_arrival"=>"25/05/2018", "status"=>5, "channel_data"=>{}, "channel_reservation_code"=>"575385288", "customer_phone"=>"+1 (778) 835-5816", "orig_amount"=>159.0, "men"=>2, "customer_notes"=>"--", "customer_address"=>"--", "device"=>-1, "addons_list"=>[], "status_reason"=>"--", "roomnight"=>6, "boards"=>"", "customer_language"=>2, "fount"=>"", "customer_zip"=>"", "amount"=>159.0, "id_woodoo"=>43321, "deleted_advance"=>127, "deleted_from"=>3, "cc_info"=>0, "room_opportunities"=>0, "customer_language_iso"=>"en"}]]
+Completed 500 Internal Server Error in 31718ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (wrong number of arguments (given 1, expected 0)):
+  
+app/controllers/wubook_controller.rb:12:in `index'
